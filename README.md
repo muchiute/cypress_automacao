@@ -2,7 +2,7 @@
    -  Este projeto contém testes automatizados utilizando Cypress para teste de API e WEB.
 
 # Projeto no Github: 
- [Github] (https://github.com/muchiute/cypressautomacao)
+ [Github] (https://github.com/muchiute/cypress_automacao)
 
 ## Descrição do Projeto:
 <p> Adiciona um produto ao carrinho e verifica se o produto foi adicionado corretamente no Demoblaze;
