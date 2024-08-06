@@ -1,39 +1,42 @@
 # Cypress Testes Automatizados
-   -  Este projeto contém testes automatizados utilizando Cypress para teste de API e WEB.
 
-# Projeto no Github: 
- [Github] (https://github.com/muchiute/cypress_automacao)
+Este projeto contém testes automatizados utilizando Cypress para testes de API e WEB.
 
-## Descrição do Projeto:
-<p> Adiciona um produto ao carrinho e verifica se o produto foi adicionado corretamente;
-<p> Busca por produtos e verifica se a lista de produtos corresponde ao termo de busca;
-<p> Atualiza as informações de um produto e verifica se a atualização foi bem sucedida;
+## Projeto no Github
 
-### Features
-   [API]
-- [x] Atualizar Imagem do Produto;
-- [x] Buscar Produtos;
+[Github](https://github.com/muchiute/cypress_automacao)
 
-   [WEB]
+## Descrição do Projeto
+
+- Adiciona um produto ao carrinho e verifica se o produto foi adicionado corretamente;
+- Busca por produtos e verifica se a lista de produtos corresponde ao termo de busca;
+- Atualiza as informações de um produto e verifica se a atualização foi bem sucedida.
+
+## Features
+
+### API
+- [x] Atualizar Imagem do Produto
+- [x] Buscar Produtos
+
+### WEB
 - [x] Buscar Produtos
 - [x] Tela de Pagamento
-- [x] Produto no Carrinho 
+- [x] Produto no Carrinho
 
+## Pré-requisitos
 
-### Pré-requisitos
-
-- Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[VsCode](https://code.visualstudio.com/) e [Cypress](https://www.cypress.io/). 
-
-### Tecnologias
-
- As seguintes ferramentas foram usadas na construção do projeto:
-
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 - [VsCode](https://code.visualstudio.com/)
-
 - [Cypress](https://www.cypress.io/)
 
-### Comandos para execução dos testes:
+## Tecnologias
 
-- [] npx cypress run
-- [] npx cypress open
+As seguintes ferramentas foram usadas na construção do projeto:
+- [VsCode](https://code.visualstudio.com/)
+- [Cypress](https://www.cypress.io/)
+
+## Comandos para execução dos testes
+
+- `npm install` (comando para instalar as dependências antes de executar os comandos abaixo)
+- `npx cypress run`
+- `npx cypress open`
