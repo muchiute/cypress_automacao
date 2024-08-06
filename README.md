@@ -16,7 +16,7 @@
 
    [WEB]
 - [x] Buscar Produtos
-- [x] Tela de Pagamento Pagamento
+- [x] Tela de Pagamento
 - [x] Produto no Carrinho 
 
 
