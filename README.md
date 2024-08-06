@@ -2,22 +2,21 @@
    -  Este projeto contém testes automatizados utilizando Cypress para teste de API e WEB.
 
 # Projeto no Github: 
- [Github] (https://github.com/muchiute/cypressautomacao)
+ [Github] (https://github.com/muchiute/cypress_automacao)
 
 ## Descrição do Projeto:
-<p> Adiciona um produto ao carrinho e verifica se o produto foi adicionado corretamente no Demoblaze;
-<p> Busca por produtos utilizando a Fake Store API e verifica se a lista de produtos corresponde ao termo de busca;
-<p> Atualiza as informações de um produto na Fake Store API e verifica se a atualização foi bem sucedida;
+<p> Adiciona um produto ao carrinho e verifica se o produto foi adicionado corretamente;
+<p> Busca por produtos e verifica se a lista de produtos corresponde ao termo de busca;
+<p> Atualiza as informações de um produto e verifica se a atualização foi bem sucedida;
 
 ### Features
    [API]
 - [x] Atualizar Imagem do Produto;
-<p> O teste não é possivel já que o site utilizado não faz atualização no BD.
 - [x] Buscar Produtos;
 
    [WEB]
 - [x] Buscar Produtos
-- [x] Efetuar Pagamento
+- [x] Tela de Pagamento Pagamento
 - [x] Produto no Carrinho 
 
 
@@ -38,4 +37,3 @@
 
 - [] npx cypress run
 - [] npx cypress open
-- [] npx run test:headless
