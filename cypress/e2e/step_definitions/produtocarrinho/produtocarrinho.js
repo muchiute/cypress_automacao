@@ -1,7 +1,7 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
 Given('o usuário está na página inicial', () => {
-  cy.visit('https://www.advantageonlineshopping.com/#/');
+  cy.visit('/');
 });
 
 When('o usuário busca por um produto e adiciona ao carrinho', () => {

@@ -38,5 +38,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## Comandos para execução dos testes
 
 - `npm install` (comando para instalar as dependências antes de executar os comandos abaixo)
-- `npx cypress run`
-- `npx cypress open`
+- `npx cypress run` (Modo: Headless sem interface gráfica)
+- `npx cypress open` (Modo: Interactive Mode com interface gráfica)

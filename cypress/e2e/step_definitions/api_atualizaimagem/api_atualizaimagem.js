@@ -1,7 +1,8 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
-const apiUrl = 'https://www.advantageonlineshopping.com/catalog/api/v1/product/image/703273701/45?product_id=2'; // URL para atualizar a imagem do produto
-const token = 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3d3cuYWR2YW50YWdlb25saW5lc2hvcHBpbmcuY29tIiwidXNlcklkIjo3MDMyNzM3MDEsInN1YiI6ImV1c2VsZm81MSIsInJvbGUiOiJVU0VSIn0.gbdRSXHpOoelByNe-rHEwe7hrYA2e_o96vKVbYS_uDw'; // Token JWT
+const apiBaseUrl = Cypress.env('apiUrl'); // Obtém o apiUrl do ambiente
+const apiUrl = `${apiBaseUrl}catalog/api/v1/product/image/703273701/45?product_id=2`;
+const token = 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3d3cuYWR2YW50YWdlb25saW5lc2hvcHBpbmcuY29tIiwidXNlcklkIjo3MDMyNzM3MDEsInN1YiI6ImV1c2VsZm81MSIsInJvbGUiOiJVU0VSIn0.gbdRSXHpOoelByNe-rHEwe7hrYA2e_o96vKVbYS_uDw';
 const productId = 2; // ID do produto
 
 Given('Eu tenho uma imagem de produto para atualizar', () => {

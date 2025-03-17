@@ -1,7 +1,7 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
 Given('o usuário adicionou um produto ao carrinho', () => {
-  cy.visit('https://www.advantageonlineshopping.com/#/');
+  cy.visit('/');
   cy.get('#laptopsImg').click()  // Navega para a seção de laptops
   cy.contains('HP Chromebook 14 G1').click()  // Clica no produto específico
   cy.get('.fixedBtn > .roboto-medium').click()  // Clica no botão de compra
