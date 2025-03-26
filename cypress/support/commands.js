@@ -21,4 +21,3 @@ Cypress.Commands.add('uploadFile', (url, formData, token) => {
       });
     });
   });
-  
